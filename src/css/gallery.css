@@ -28,13 +28,10 @@
   width: 86px;
 }
 
-.search-btn:hover {
+.search-btn:hover,
+.search-btn:focus {
   background-color: #6c8cff;
   border-color: #000000;
-}
-
-.search-btn:focus {
-  border-color: #808080;
 }
 
 .gallery {
@@ -120,9 +117,10 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.load-more:hover {
+.load-more:hover,
+.load-more:focus {
   background-color: #6c8cff;
-  transform: translateY(-2px);
+  border-color: #000000;
 }
 
 .hidden {
